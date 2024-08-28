@@ -1,0 +1,199 @@
+.topmost {
+    height: 10vh;
+    width: 100%;
+    border: 2px solid #000000;
+    padding-top: 5vh;
+    background-color:#6F6AF7;
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    position: fixed;
+}
+.opt{
+    width: 100%;
+    height: 100%;
+    display: block;
+    fill: currentcolor;
+}
+li{
+    display: inline;
+    font-size: xx-large;
+    padding:  5vh 2vh;
+    box-sizing: inherit;
+    text-align: center;
+}
+.socialmedia{
+    display: flex;
+}
+.main{ 
+    padding: 3vh;
+    background-size: contain;
+    display:flex; 
+    width: 90%;
+    height: 75%; 
+         
+}
+
+.box1{
+    border: 2px solid black;
+    width: 89vh;
+    height: 34vh;
+    font-size: larger;
+    background-color: #E5D8FF;  
+    position: 2vh;
+    margin-left:20vh;
+    justify-self: right;
+    object-fit: cover;
+    border-radius: 3vh;    
+    margin-top: 12%;
+    
+
+}
+.assistent{
+    width: 4px;
+    height: 7px;
+    mix-blend-mode: darken;
+    padding-bottom: 12vh;
+    position: fixed;
+}
+.mainbox{
+flex-wrap: wrap;
+margin-top: 20;
+justify-content: center;
+display: flex;
+align-items: center;
+font-family: DM sans;
+justify-content: space-between;
+}
+.subbox1{
+ border: 2px solid black;
+ width: 29vh;
+ height: 10vh;
+ background: #929DFF;
+ box-shadow: 0px 0px 10px 5px grey;
+ text-align: center;
+ padding-top: 4vh;
+ font-size: x-large;
+ border-radius: 3vh;    
+}
+.subbox2{
+    border: 2px solid black;
+    width: 29vh;
+    height: 10vh;
+    background: #734CF2;
+    box-shadow: 0px 0px 10px 5px gray;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: x-large;
+    border-radius: 3vh;        
+   }
+   .subbox3{
+    border: 2px solid black;
+    width: 29vh;
+    height: 10vh;
+    background: #D288FF;
+    box-shadow: 0px 0px 10px 5px gray;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: x-large;
+    border-radius: 3vh;    
+   }
+   .subbox4{
+    border: 2px solid black;
+    width: 29vh;
+    height: 10vh;
+    background: #000000;
+    color: aliceblue;
+    box-shadow: 0px 0px 10px 5px gray;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: x-large;
+    border-radius: 3vh;    
+   } 
+   
+.secondbox{
+    margin: 12vh;
+    width: auto;
+    height: auto;
+    background: #483EFF;
+    background-size: contain;
+    display:flex; 
+    width: 90%;
+    height: 75%; 
+
+ 
+}
+.box4{
+    height: 100vh;
+    width: 70vh;
+    margin-left: 3vh;
+}
+.box5{
+    border: 2px solid black;
+    width: 100vh;
+    height: 75vh;
+    background-color: #E5D8FF;  
+    border-radius: 3vh;
+    object-fit: cover;
+    margin-top: 8%;
+    margin-right: 7%;
+}
+
+.secondbox1{
+    border: 2px solid wheat;
+    width: 29vh;
+    height: 10vh;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5vh;
+    border-radius: 3vh; 
+    background: #E5D8FF; 
+    margin-top: 12vh;
+}
+.secondbox2{
+    border: 2px solid wheat;
+    width: 29vh;
+    height: 10vh;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5vh;
+    margin-top: 15vh;
+    border-radius: 3vh;    
+}
+.secondbox3{
+    border: 2px solid wheat;
+    width: 29vh;
+    height: 10vh;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5vh;
+    margin-top: 15vh;
+    border-radius: 3vh;    
+}
+.sub2box{
+    border: 2px solid black;
+    width: 89vh;
+    height: 50vh;
+    background-color: #E5D8FF;  
+    border-radius: 3vh;
+    display: flex;
+    margin-left: 44vh;
+    margin-bottom: 40vh;
+}
+.info{
+    padding-left: 3%;
+    padding-top: 3%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.but{
+    float: right;
+    padding: 3%;
+    margin-right: 6%;
+    color: white;
+    background-color: black; 
+    font-size: x-large;
+}
